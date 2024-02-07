@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body{
+            margin: 0;
+            padding: 0 20px 0px 20px;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: 0.4s;
+            animation: imageAnimation 14s infinite;
+            background-image: url(Athirapally_Water_falls.jpg.jpg);
+        }
+        h1,h2{
+            padding-left:30px;
+            color:white;
+        }
+        .background-image {
+            position: absolute;
+            margin: 10px;
+            padding: 20px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            transition: opacity 1s ease;
+        }
+        .navbar-nav{
+            padding:0px;
+        }
+        @keyframes imageAnimation {
+            0%,100%{
+                background-image: url(Athirapally_Water_falls.jpg.jpg);
+            }
+            25%{
+                background-image: url(sree-padmanabhaswamy.jpg);
+            }
+            50%{
+                background-image: url(KovalamBeach.jpeg);
+            }
+            75%{
+                background-image: url(Chavakkadbeach.jpg);
+            }
+        }
+        .container{
+            padding-top: 10px;
+            justify-content: start;
+        }
+        .navbar a {
+            background-color: transparent;
+            color:white;
+            font-weight: 50px;
+            font-family:cursive;
+            font-size: 25px;
+            margin-right: 20px;
+            text-decoration: none;
+            float:right;
+        }
+        p{
+            font-size:25px;
+            padding: 60px 30px 60px 30px;
+            margin: 10px;
+            align-items: center;
+            color: white;
+        }
+        .navbar-brand{
+    background-color: transparent;
+    color:white;
+    font-weight: 500;
+    font-family:cursive;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+    float:right;
+}
+    </style>
+</head>
+<body>
+    <div class="background-image">   
+        <h1>Kerala</h1>
+        <h2>God's Own Country</h2>
+        <nav class="navbar-nav ml auto ">
+            <div class="container justify-content-start">
+            <a class="navbar-brand" href="loginpage.html">Login</a>
+              <a class="navbar-brand" href="contact.html">Contact</a>
+              <a class="navbar-brand" href="about.html">About</a>
+              <a class="navbar-brand" href="home.html">Home</a>
+              </div>
+            </nav>
+            <p>Kerala, a state situated on the tropical Malabar Coast of southwestern India, is one of the most popular tourist destinations in the country. Named as one of the ten paradises of the world by National Geographic Traveler,[1] Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.</p>
+        </div>
+    </body>
+    </html>

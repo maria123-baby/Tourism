@@ -1,0 +1,27 @@
+body{
+    background-image:url(https://www.japjitravel.com/blog/wp-content/uploads/2016/11/munnar-kerala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:40px 80px 40px 80px;
+}
+
+
+ .navbar-brand{
+    background-color: transparent;
+    color:black;
+    font-weight: 500;
+    font-family:cursive;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+    float:right;
+}
+.card{
+    margin:10px;
+    width: 18rem;
+    height: 28rem;
+}
+h1{
+    color: green;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="contain">
+    <form action="home.html"> 
+        <h1>Login</h1>
+        <div class="input-box">
+            <i class="fa-solid fa-user" style="color: #c0c0c0;"></i>
+             <input type="text" placeholder="username" required>
+        </div>
+        <div class="input-box">
+            <i class="fa-solid fa-user" style="color: #c0c0c0;"></i>
+             <input type="password" placeholder="password" required>
+        </div>
+        <button type="submit">Login</button>
+        <div class="register-link">
+            <p>Don't have an account?<a href="signup.html">Sign Up</p>
+        </div>
+    </form>
+</div>
+</body>
+<style>
+    *{
+        box-sizing: border-box;
+        
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 80px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://img.freepik.com/premium-photo/black-purple-concrete-interior-background-empty-template-scene_118047-5200.jpg?size=626&ext=jpg&ga=GA1.1.404125443.1707267277&semt=sph);
+    }
+    .contain{
+        padding:30px 40px 30px 40px ;
+         box-sizing: border-box;
+         border: 1px solid white;
+         background-color: transparent;
+         border-radius: 15px;
+         width:450px;
+         height:450px;
+        
+    }
+    h1{
+        text-align: center;
+        color:white;
+        font-weight:20px;
+        padding:20px 0 20px ;
+    }
+    .contain .input-box{
+         width: 100%;
+         height: 50px;
+         margin:10px;
+    }
+    .input-box input{
+        width: 100%;
+        height:100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 1px solid white;
+        border-radius:15px ;
+        width: 350px;
+        height: 30px;
+        padding-left: 10px;
+    }
+    .input-box input::placeholder{
+        color: white;
+    }
+    button{
+        color:black;
+        background-color:#fff;
+        width: 350px;
+        height: 35px;
+        border-radius:20px;
+        font-weight: bold;
+        border: none;
+    }
+    .register-link{
+        padding-top: 20px;
+        text-align: center;
+        color:white
+    }
+    .register-link a{
+        color: white;
+        text-decoration: none;
+        font-size:large;
+    }
+</style>
+</html>
